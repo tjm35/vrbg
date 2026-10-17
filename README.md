@@ -16,3 +16,12 @@ Background images must be 360° skyboxes in equirectangular format. Jpeg and PNG
 Background images will only be used if the Play Area Environment Style is set to "image". The tool will warn the user if this is not the case.
 
 Background images will not be shown if the passthrough camera is in use. The tool will not warn the user about this.
+
+## Building
+
+In case you want to build this yourself:
+
+* Clone the repository to a folder on your Steam Frame.
+* Run `make` in that folder.
+
+All necessary prerequisites should already be on the Frame as standard.
